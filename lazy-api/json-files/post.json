@@ -1,0 +1,25 @@
+{
+  "controllersPath": "src/controllers",
+  "servicesPath": "src/services",
+  "routesPath": "src/routes",
+  "name": "post",
+  "attributes": [
+    {
+      "name": "title",
+      "type": "string",
+      "allowNull": false
+    },
+    {
+      "name": "description",
+      "type": "string",
+      "allowNull": false
+    },
+    {
+      "name": "type",
+      "type": "string",
+      "modelType": "enum",
+      "values": ["public", "private"],
+      "defaultValue": "public"
+    }
+  ]
+}

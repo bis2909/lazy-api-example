@@ -1,0 +1,8 @@
+{
+  "modelPath": "src/models",
+  "migrationPath": "src/database/migrations",
+  "controllersPath": "src/controllers",
+  "servicesPath": "src/services",
+  "routesPath": "src/routes",
+  "helpersPath": "src/helpers"
+}
